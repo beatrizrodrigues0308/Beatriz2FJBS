@@ -19,4 +19,21 @@ h2{
 .primeira-parte{
     background-image: linear-gradient(#424e91, #4ebfe9);
     color: white;
-}
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    padding: 100px;
+ }
+
+ .foto-estudante{
+     width: 35%;
+ }
+
+ .primeiro-paragrafo{
+     padding: 15px 0;
+ }
+
+ .segundo-paragrafo{
+     padding: 15px 0;
+ }
+    
