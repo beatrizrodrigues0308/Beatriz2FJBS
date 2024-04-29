@@ -3,19 +3,50 @@
    padding: 0;
 }
 
+body{
+    font-family: 'poppins';
+}
+
 
 .cabecalho{
     background-color: #424e61;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 24px;
+}
+.lista-item{
+    display: inline-block;
+    padding: 0 12px;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.lista-cabecalho{
-    color: white;
-}
+
 .primeira-parte{
     background-image: linear-gradient(#424e61, #4ebfe9);
+    height: 500px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
     display: flex;
+    padding: 100px;
+
+}
+.escola{
+    padding: 15px;
+}
+.primeiro-paragrafo{
+    padding: 15px;
+    font-size: 20px;
+}
+.segundo-paragrafo{
+    padding: 15px 0;
+    font-size: 20px;
+}
+.quem-somos{
+    padding: 24px 0;
+}
+.foto-estudante{
+   width: 35%;
 }
