@@ -50,3 +50,20 @@ h2{
          display:grid;
          grid-template-columns: 20% 20% 20% 20% 20%;
 }
+.estudante-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.rodape{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo{
+    width: 10%;
+}
+a
